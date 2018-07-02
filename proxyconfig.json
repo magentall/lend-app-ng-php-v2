@@ -1,6 +1,6 @@
 {
     "/api":{
-        "target": "http://localhost",
+        "target": "http://149.202.52.208/stz",
         "secure": false,
         "changeOrigin": true
     }

@@ -21,7 +21,7 @@ export class LoginComponent implements OnInit {
     const password = target.querySelector('#password').value
     const capt = target.querySelector('#capt').value
 
-    if (capt==='b'){
+    if (capt==='orange'){
 
       this.Auth.getUserDetails(username, password).subscribe(data => {
         if(data.success){
@@ -40,7 +40,7 @@ export class LoginComponent implements OnInit {
       })
     }
     else{
-      window.alert('la réponse est b')
+    window.alert('comme l\'orange')
     }
 
     //console.log(username, password)
